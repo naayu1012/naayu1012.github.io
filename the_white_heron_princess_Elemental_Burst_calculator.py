@@ -44,7 +44,7 @@ def expected_damage():
         print('数字を入力してください')
         expected_damage()
     if int(A) >= 100:
-        A = 1
+        A = 100
     A=float(A)/100
     C=input('非会心時の咲きダメ―ジを入力してください:')
     if C.isdecimal() == False:
